@@ -1,6 +1,6 @@
 #!/usr/bin/env -S uv run
 # /// script
-# onnxruntime ships wheels only up to cp314; raise the cap once cp315 exists.
+# # onnxruntime ships wheels only up to cp314; raise the cap once cp315 exists.
 # requires-python = ">=3.10,<3.15"
 # dependencies = [
 #     # listen-to-meeting's listen.py imports this module, so it declares these
