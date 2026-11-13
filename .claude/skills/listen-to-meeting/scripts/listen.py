@@ -1,6 +1,7 @@
 #!/usr/bin/env -S uv run
 # /// script
-# requires-python = ">=3.10"
+# onnxruntime ships wheels only up to cp314; raise the cap once cp315 exists.
+# requires-python = ">=3.10,<3.15"
 # dependencies = [
 #     # The first three belong to transcribe-audio's transcribe.py, which this
 #     # script imports; they are mirrored from its header (see the note on
