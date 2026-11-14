@@ -50,6 +50,7 @@ tests:
   - tests/unit/winnow-record.test.js
   - tests/unit/ship-progress.test.js
   - tests/unit/ai-cost.test.js
+  - tests/unit/audio-skill-headers.test.js
 related: [testing]
 ---
 
